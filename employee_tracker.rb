@@ -44,6 +44,7 @@ end
 def add
   puts "Who do you need to add?"
   employee_name = gets.chomp
+  list_divisions
   puts "which division do they belong to?"
   new_division = gets.chomp
   division = Division.create({:name => new_division})

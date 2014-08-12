@@ -11,5 +11,5 @@ describe Division do
   it 'returns division ID when given a division name' do
     division = Division.create({:name => "Finance"})
     employee1 = Employee.create({:name => "Bob Smith", :division_id => division.id})
-
+  end
 end
